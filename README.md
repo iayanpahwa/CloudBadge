@@ -1,20 +1,18 @@
 # CloudBadge
 
-CircuitPython powered IoT conference badge controlled over MQTT
+[CircuitPython powered IoT conference badge controlled over MQTT](https://codensolder.com/blog/cloudbadge)
 
 ![CloudBadge](cloudBadge.jpg "CloudBadge")
 
+## Tested on CircuitPython v4.1.2
+
 ## Dependencies
 
-All the libraries can be downloaded as CircuitPython library bundle [here](https://circuitpython.org/libraries) :
-* adafruit_bitmap_font
-* adafruit_bus_device
-* adafruit_display_shapes
-* adafruit_esp32spi
-* adafruit_logging
-* adafruit_minimqtt
-* adafruit_pybadger
-* adafruit_requests
-* neopixel
+### Hardware:
+* CircuitPlayground compatible board
+* ESP32 co-processor (Breakout/ Featherwing/ etc)
 
-## Tested on CircuitPython v4.1.2
+### Software:
+All the libraries can be downloaded as CircuitPython library bundle [here](https://circuitpython.org/libraries) :
+
+
